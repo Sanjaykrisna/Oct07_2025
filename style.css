@@ -1,0 +1,132 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+header{
+    background-color: aqua;
+}
+.hd-flex{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+#se{
+    margin-left: 200px;
+}
+section{
+    background-color: chartreuse;
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.im{
+    padding: 30px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.im:hover{
+    background-color: aqua;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.st-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 40px;
+}
+button{
+    background-color: #ff5722;
+    border-radius: 5px;
+}
+.st-itm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#testimonials {
+    padding: 60px 0; 
+    background-color: #f9f9f9; 
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.section-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+
+.testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px; 
+}
+
+
+
+
+.testimonial-card {
+    background-color: #fff; /* White card background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    text-align: left; /* Align text within the card to the left */
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px); /* Lift card slightly on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+/* Optional: Add a subtle quote icon or marker */
+.quote::before {
+    content: "\201C"; /* Left double quotation mark */
+    font-size: 4em;
+    color: #ff5722; /* Use a brand accent color */
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    opacity: 0.15;
+    line-height: 1;
+}
+
+
+.client-info {
+    display: flex; /* Align avatar and details side-by-side */
+    align-items: center;
+    margin-top: 20px;
+}
